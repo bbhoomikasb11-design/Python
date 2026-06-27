@@ -41,6 +41,25 @@ print(z2)
 #unpacking variables
 fruits = ["orange", "Kiwi", "Apple"]
 x3,y3,z3 = fruits
-print(x3)
-print(y3)
-print(z3) 
+print(x3,y3,z3)
+
+#global variables
+var= "awesome"
+def func():
+    print("python is " + var)
+func()
+
+#local variable
+def myfunc():
+    var1 = "fantastic"
+    print("python is "+ var1)
+myfunc()
+print("python is " + var)
+
+#global keyword
+def my():
+    global Key
+    Key = "awesome"
+    print("python is "+ Key)
+my()
+print("python is " + Key)

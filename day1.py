@@ -63,3 +63,35 @@ def my():
     print("python is "+ Key)
 my()
 print("python is " + Key)
+
+#type conversion
+
+p = 2
+q = 3.14
+r = 1j
+
+P = int(q)
+Q = float(p)
+
+print(P)
+print(Q)
+print(r)
+
+#random module
+import random
+print(random.randrange(1,10))
+
+#strings-slicing
+b= "Hello World!"
+print(b[2:5])
+print(b[:5])
+print(b[2:])
+print(b[-5:-2]) #negative slicing
+
+#modify strings
+c="  Hello WORLD!  "
+print(c.upper())
+print(c.lower())
+print(c.split(","))
+print(c.replace("H","L"))
+print(c.strip())

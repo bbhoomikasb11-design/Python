@@ -47,3 +47,19 @@ print(~6)
 #operator precedence
 print((100+1)-(100+1))
 print(5+4-6+4*6)
+
+#type casting
+a=10
+b=float(a)
+print(b)
+print(type(b))
+
+c=10.45
+d=int(a)
+print(d)
+print(type(d))
+
+e="100"
+f=int(e)
+print(f)
+print(type(f))

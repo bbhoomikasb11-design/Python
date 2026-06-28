@@ -95,3 +95,25 @@ print(c.lower())
 print(c.split(","))
 print(c.replace("H","L"))
 print(c.strip())
+
+#concatenation
+d = x2 + " " + y2
+print(d)
+
+#format and place holders
+price = 60.3456
+txt = f"the ball price is {price:.2f}"
+print(txt)
+print(f"the price of bat is {30*2}")
+
+#arithmetic operator
+x= 15
+y=2
+
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x%y)
+print(x//y)
+print(x**y)

@@ -24,3 +24,17 @@ if(password == "python123"):
     print("grant access")
 else:
     print("access denied")
+
+
+#elif statemnets
+
+
+
+colors = str(input("enter the color of traffic signal: "))
+if(colors == "red"):
+    print("stop")
+elif(colors == "green" ):
+    print("go")
+else:
+    print("ready")
+

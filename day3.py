@@ -17,3 +17,10 @@ if(c>=35):
     print("pass")
 else:
     print("fail")
+
+
+password = "pyton123"
+if(password == "python123"):
+    print("grant access")
+else:
+    print("access denied")

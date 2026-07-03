@@ -23,3 +23,11 @@ def count_vowels():
         if char in "aeiou":
             count += 1
     print("Vowels:", count)
+
+
+# Calling all functions
+
+table()
+factorial()
+reverse_string()
+count_vowels()

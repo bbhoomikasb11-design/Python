@@ -8,3 +8,4 @@ print(f"Name    : {name}")
 print(f"Age     : {age}")
 print(f"College : {college}")
 print(f"CGPA    : {cgpa}")
+
